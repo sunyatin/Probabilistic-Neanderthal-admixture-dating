@@ -37,10 +37,13 @@ Combines the per-chromosome decay curves into a single genome-wide decay curve a
   
 **Parameters (positional):**
   
-   file containing the per-chromosome decay curves
-   minimum genetic distance in cM
-   maximum genetic distance in cM
-   file containing the weight per chromosome for the jackknife
+    file containing the per-chromosome decay curves
+
+    minimum genetic distance in cM
+
+    maximum genetic distance in cM
+
+    file containing the weight per chromosome for the jackknife
   
 ## expfit_v9.py
 Performs the fitting of a single exponential or a sum of two exponentials.
@@ -68,5 +71,9 @@ A very generic script to fit a single exponential, a sum of two exponentials and
   
 **Parameter (positional):**
   
-    A file containing two columns: (1) genetic distance in cM; (2) a statistic (e.g. weighted covariance, allele sharing correlation, etc.)
+    A file containing two columns: 
+    
+    (1) genetic distance in cM; 
+    
+    (2) a statistic (e.g. weighted covariance, allele sharing correlation, etc.)
  
