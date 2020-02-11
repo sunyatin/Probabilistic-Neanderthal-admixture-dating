@@ -5,11 +5,11 @@ Converts a \.snp file output by AdmixFrog to 4 eigenstrat-formatted files with e
 
 **Parameters:**
 
-    -p the AdmixFrog .snp file to convert
+    **-p** the AdmixFrog .snp file to convert
 
-    -o prefix of the EIGENSTRAT output files
+    **-o** prefix of the EIGENSTRAT output files
 
-    -s add this option with the name of a file containing a list of SNPs that should be output (all SNPs present in the input .snp that are not listed in this -s file will be discarded), the -s file must have the same format as an EIGENSTRAT .snp file
+    **-s** add this option with the name of a file containing a list of SNPs that should be output (all SNPs present in the input .snp that are not listed in this -s file will be discarded), the -s file must have the same format as an EIGENSTRAT .snp file
 
 ## ASCovariance_SingleSample_v1c.py
 Computes the weighted single sample statistic.
