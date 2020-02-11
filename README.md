@@ -3,7 +3,9 @@ Method for estimating the age of admixture using a single diploid sample and gen
 
 # admixfrog2eigenstrat_v1.py
 Converts a \.snp file output by AdmixFrog to 4 eigenstrat-formatted files with extensions .snp / .geno / .ind / .glhood
+
 The .glhood file contains the likelihood of the genotypes.
+
 Parameters:
   -p the AdmixFrog .snp file to convert
   -o prefix of the EIGENSTRAT output files
