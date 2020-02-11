@@ -43,7 +43,7 @@ Combines the per-chromosome decay curves into a single genome-wide decay curve a
 
     maximum genetic distance in cM
 
-    file containing the weight per chromosome for the jackknife
+    file containing the weight per chromosome for the jackknife (same format as for expfit_9.py)
   
 ## expfit_v9.py
 Performs the fitting of a single exponential or a sum of two exponentials.
